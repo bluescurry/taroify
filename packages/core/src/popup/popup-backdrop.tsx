@@ -12,6 +12,7 @@ export interface PopupBackdropProps extends ViewProps {
   closeable?: boolean
 }
 
+/** popup 的背景板，内部使用 Backdrop 组件实现  */
 export default function PopupBackdrop(props: PopupBackdropProps) {
   const { open: openProp = true, duration, closeable = true, ...restProps } = props
   const { open, duration: ctxDuration, onClose } = useContext(PopupContext)
@@ -28,6 +29,7 @@ export default function PopupBackdrop(props: PopupBackdropProps) {
 
 PopupBackdrop.displayName = "PopupBackdrop"
 
+/** 通过 options 传入的 open 属性，控制背景板组件的现隐状态 */
 export function usePopupBackdrop(
   backdrop: ReactNode = <PopupBackdrop />,
   options?: boolean | Omit<PopupBackdropProps, "open">,

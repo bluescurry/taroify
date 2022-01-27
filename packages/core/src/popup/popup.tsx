@@ -97,6 +97,7 @@ export interface PopupProps extends ViewProps {
 }
 
 const Popup = forwardRef<any, PopupProps>((props, ref) => {
+  console.log("456")
   const {
     className,
     style: styleProp,
@@ -128,6 +129,7 @@ const Popup = forwardRef<any, PopupProps>((props, ref) => {
     [duration],
   )
 
+  console.log("durationStyle ---> ", durationStyle)
   return (
     <PopupContext.Provider
       value={{
