@@ -1,7 +1,7 @@
 {
   "name": "@taroify/~icons",
   "description": "Taroify icon components built on Taro",
-  "version": "0.0.26-alpha.1",
+  "version": "0.0.27-alpha.0",
   "license": "MIT",
   "private": "true",
   "keywords": [
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@types/classnames": "^2.2.11",
-    "@types/lodash": "^4.14.175",
+    "@types/lodash": "^4.14.178",
     "@types/node": "^14.14.25",
     "lodash": "^4.17.21"
   }

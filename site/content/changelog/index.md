@@ -12,6 +12,79 @@ Taroify 遵循 [Semver](https://semver.org/lang/zh-CN/) 语义化版本规范。
 
 ## 更新内容
 
+### v0.0.27-alpha.0
+
+`2022-02-11`
+
+**New Component**
+
+- 新增 @taroify/commerce 包 [#84](https://github.com/mallfoundry/taroify/issues/84)
+- 新增 ActionBar 组件 [#341](https://github.com/mallfoundry/taroify/pull/341)
+
+**Bug Fixes**
+
+- Tabs
+  - 修复切换标签页会触发两次 onChange 事件的问题 [#336](https://github.com/mallfoundry/taroify/issues/336) [#339](https://github.com/mallfoundry/taroify/pull/339)
+- Skeleton
+  - 修复设置动画无效果的问题 [#334](https://github.com/mallfoundry/taroify/pull/334)
+
+### v0.0.26-alpha.6
+
+`2022-02-08`
+
+**Bug Fixes**
+
+- Badge
+  - 修复独立模式 fixed 的问题 [#331](https://github.com/mallfoundry/taroify/pull/331)
+- Button
+  - 修复 loading 为 false 时，不能显示图标的问题 [#332](https://github.com/mallfoundry/taroify/pull/332) [@yifeishu-com](https://github.com/yifeishu-com)
+
+### v0.0.26-alpha.5
+
+`2022-01-28`
+
+**Feature**
+
+- ShareSheet.Option
+  - 新增 value 属性 [#328](https://github.com/mallfoundry/taroify/pull/328)
+
+### v0.0.26-alpha.4
+
+`2022-01-28`
+
+**Bug Fixes**
+
+- Stepper
+  - 修复获取手动输入值不正确的问题 [#326](https://github.com/mallfoundry/taroify/pull/326)
+- Popup
+  - 修复固定定位（fixed position）和动画（translate3d）联用的问题 [#327](https://github.com/mallfoundry/taroify/pull/327)
+
+### v0.0.26-alpha.3
+
+`2022-01-28`
+
+**Bug Fixes**
+
+- Input
+  - 修复字号（font-size）、行高（line-height）继承父元素样式的问题 [#325](https://github.com/mallfoundry/taroify/pull/325)
+  - 修复清除按钮点击无效果的问题 [#320](https://github.com/mallfoundry/taroify/pull/320)
+- Textarea
+  - 修复字号（font-size）、行高（line-height）继承父元素样式的问题 [#324](https://github.com/mallfoundry/taroify/pull/324)
+- Form
+  - 修复非表单环境下设置空字符串的问题 [#323](https://github.com/mallfoundry/taroify/pull/323)
+  - 修复嵌套 Input 组件不能自定义颜色的问题 [#323](https://github.com/mallfoundry/taroify/pull/323)
+
+### v0.0.26-alpha.2
+
+`2022-01-27`
+
+**Bug Fixes**
+
+- ShareSheet
+  - 修复 image 样式被覆盖的问题 [#316](https://github.com/mallfoundry/taroify/pull/316)
+- Textarea
+  - 修复设置 value 无效的问题 [#315](https://github.com/mallfoundry/taroify/pull/315)
+
 ### v0.0.26-alpha.1
 
 `2022-01-26`
